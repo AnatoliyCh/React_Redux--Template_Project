@@ -1,8 +1,28 @@
+# Установка
 
+1. Скачать
+2. npm install
 
-
-
-
+# Архитектура
+```
+my-app
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public - публичные данные
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src - корень проекта
+    ├── app - компоненты/логика
+    ├── config - роутинг/базовые положения
+    ├── libs - библиотеки свои
+    ├── docs - документация
+    ├── dist - сборка проекта
+    ├── static - статические файлы (img и т.д)
+    └── vendor - библиотеки внешние
+```
 
 
 
