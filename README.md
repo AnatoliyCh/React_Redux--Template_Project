@@ -3,6 +3,9 @@
 1. Скачать
 2. npm install
 
+# npm пакеты
+bootstrap, jquery popper.js, react-router-dom
+
 # Архитектура
 ```
 my-app
@@ -16,6 +19,11 @@ my-app
 │   └── manifest.json
 └── src - корень проекта
     ├── app - компоненты/логика
+    │   ├── actions
+    │   ├── components - компоненты
+    │   ├── constants - константы
+    │   ├── middleware
+    │   └── reducers
     ├── config - роутинг/базовые положения
     ├── libs - библиотеки свои
     ├── docs - документация
